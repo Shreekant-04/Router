@@ -3,10 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div
-      className="relative bg-cover bg-center h-screen"
-      style={{ backgroundImage: `url('./public/heroImage.jpg')` }}
-    >
+    <div className="relative bg-cover bg-center h-screen bg-[url('./public/heroImage.jpg')]">
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white">
         <h1 className="text-5xl font-bold mb-4">
